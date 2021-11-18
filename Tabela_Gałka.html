@@ -2,32 +2,30 @@
 		<html lang="pl-PL">
 		<html>
 		<head>
-			<meta charset="utf-8">
-			<title>Tabela</title>
-			</head>
 			<style>
-			body{
-			
-			background:gray;
-			
+		table, th, td{
+			border:2px dotted white;
+		
+		padding:20px;
+		
+		}
+			th:nth-child(5n+4){
+			background:red;
 			}
-			table{
-			width:800px;
-			margin:auto;
-			table-layout:fixed;
-			text-align:center;
-			margin-top:50px;
-			font-family:Arial;
-			color:#000;
+			th:nth-child(5n+3){
+			background:orange;
+			color:red;
 			}
-			table, th, td{
-			border:1px dotted black;
-			border-collapse:collapse;
-			padding:20px;
-			font-size:20px;
+				th:nth-child(5n+2){
+			background:green;
+			color:brown;
 			}
-			th{
-			background:purple;
+					th:nth-child(5n+1){
+			background:blue;
+			}
+			}
+			td:nth-child(5n+1){
+			background:blue;
 			
 			}
 			td:nth-child(5n+1){
@@ -35,38 +33,58 @@
 			
 			}
 			td:nth-child(5n+2){
-			background:red;
-			
+			background: green;
+			color:brown;
 			}
 			td:nth-child(5n+3){
-			background:beige;
+			background:orange;
+			color:red;
 			
 			}
 			td:nth-child(5n+4){
-			background:orange;
+			background:red;
 			
 			}
 			td:nth-child(5n+5){
-			background:pink;
+			background:brown;
+			
 			
 			}
+				
+			td:nth-child(5n+5){
+			background:silver;
+			
+			}
+			td:nth-child(5n+6){
+			background:silver;
+			
+			}
+			td:nth-child(5n+6){
+			background:silver;
+			
+			}td:nth-child(5n+6){
+			background:silver;
+			
+			}
+			
+			
 			</style>
-	<body>
+	<body bgcolor="silver">
 
 	tutaj będzie tabela
 	
 	<A HREF="file:///F:/zadanie3.html"> powrót</A>
-	<table border="4">
+	<table border="1" >
 	<tr>
-	<th> LP.</th>
+	<th > LP.</th>
 	<th>Model</th>
 	<th>cena sugerowana</th>
 	<th colspan=3>Obecna cena</th>
 	
 	</tr>
 	<tr>
-	<td>1.</td>
-	<td>RTX 3090</td>
+	<td>1.</td><font color="brown">
+	<td>RTX 3090</td></font>
 	<td>7029z</th>
 	<td rowspan=3></td>
 	<td>13649zł</td>
@@ -74,16 +92,16 @@
 	</tr>
 	
 	<tr>
-	<td>2.</td>
-	<td>RtX 3070</td>
+	<td>2.</td><font color="brown">
+	<td>RtX 3070</td></font>
 	<td>2359zł</td>
 	
 	<td>4999zł</td>
 	<td></td>
 	</tr>
 	<tr>
-	<td>3.</td>
-	<td>RX  6800 XT</td>
+	<td>3.</td><font color="brown">
+	<td>RX  6800 XT</td></font>
 	<td>3250zł</td>
 	
 	<td>6750zł</td>
@@ -91,6 +109,5 @@
 	</tr><font color="red">
 	<p><i><b><h3>źródło: Własne</h3></i></b></p>
 	</font>
-	
 	
 	</body>
